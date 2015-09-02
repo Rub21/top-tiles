@@ -1,0 +1,49 @@
+/* Base overrides
+------------------------- */
+body {
+  font:13px/20px 'Helvetica Neue', Helvetica, sans-serif;
+  color:rgba(0,0,0,0.75);
+  }
+h1, h2, h3, h4, h5, h6,
+strong,
+svg,
+button,
+.strong,
+.tabs a,
+input[type],
+label,
+form fieldset label,
+.button {
+  font-family:'Helvetica Neue', Helvetica, sans-serif;
+  }
+.strong { font-weight:500; }
+strong { font-weight:bold}
+.tabs a,
+input[type='submit'],
+button,
+.button {
+  font-weight:bold;
+  font-size:13px;
+  line-height:18px;
+  }
+h1, h2, h3 { font-weight:500; }
+h4, h5, h6 {
+  font-size:15px;
+  line-height:28px;
+  }
+h2 { padding-top:0; padding-bottom:0; }
+
+
+#map {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	width: 100%;
+}
+
+.classform {
+  position: absolute;
+  left: 10px
+  top:20px;
+  z-index: 99;
+}

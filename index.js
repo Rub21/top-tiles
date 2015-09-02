@@ -7,8 +7,8 @@ var jsonfile = require('jsonfile');
 var csv2geojson = require('csv2geojson');
 jsonfile.readFile('japan.geojson', function(err, obj) {
 	var limits = {
-			min_zoom: 13,
-			max_zoom: 13
+			min_zoom: 14,
+			max_zoom: 14
 		}
 	var json_tiles = tilecover.geojson(obj.features[0].geometry, limits); 
 	fs.readFile('twitter.csv', 'utf8', function(err, data) {
