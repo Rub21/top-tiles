@@ -1,0 +1,19 @@
+{
+  "name": "top-tiles",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ruben Lopez M <ruben@mapbox.com> (http://rub21.github.io/)",
+  "license": "ISC",
+  "dependencies": {
+    "csv2geojson": "^4.0.0",
+    "jsonfile": "^2.2.1",
+    "tile-cover": "^2.4.1",
+    "tilebelt": "^0.7.1",
+    "turf": "^2.0.2",
+    "underscore": "^1.8.3"
+  }
+}
