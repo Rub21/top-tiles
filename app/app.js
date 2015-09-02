@@ -3,7 +3,7 @@ var map = L.mapbox.map('map', 'ruben.nbalnj6l', {
     infocontrol: true,
     zoomControl: false,
     center: [35.546, 137.411],
-    zoom: 7
+    zoom: 8
 });
 
 new L.Control.Zoom({
