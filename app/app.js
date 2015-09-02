@@ -5,7 +5,7 @@ var map = L.mapbox.map('map', 'ruben.nbalnj6l', {
     center: [35.546, 137.411],
     zoom: 8
 });
-
+map.legendControl.addLegend(document.getElementById('legend').innerHTML);
 new L.Control.Zoom({
     position: 'topright'
 }).addTo(map);

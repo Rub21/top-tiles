@@ -14,12 +14,24 @@
         </style>
     </head>
     <body>
-        <div id='map' class="loading"></div>
-        <div class='col6 clearfix classform'>
-            <div class='col12 pad2 fill-light'>
-                Each box is a tiles in zoom 13, click in box to see the compare map
+        <div id='legend' style='display:none;'>
+            <strong>Number of tweets</strong>
+            <nav class='legend clearfix'>
+                <span style='background:#ffffb2;'>< 50</span>
+                <span style='background:#fecc5c;'> >= 50  && < 200</span>
+                <span style='background:#fd8d3c;'>>= 200 && < 500</span>
+                <span style='background:#f03b20;'>>= 500 && < 1000</span>
+                <span style='background:#bd0026;'> >= 1000</span>
+                <br>
+                <br>
+                <br>
             </div>
-        </div>
-        <script src='app.js'></script>
-    </body>
-</html>
+            <div id='map' class="loading"></div>
+            <div class='col6 clearfix classform'>
+                <div class='col12 pad2 fill-light'>
+                    Each box is a tiles in zoom 13, click in box to see the compare map
+                </div>
+            </div>
+            <script src='app.js'></script>
+        </body>
+    </html>
