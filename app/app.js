@@ -47,7 +47,7 @@ var usLayer = L.mapbox.featureLayer()
                     coor.push((arr[0][1] + arr[1][1] + arr[2][1] + arr[3][1]) / 4);
                     console.log(coor);
                     console.log(coor);
-                    window.open('http://lxbarth.com/compare/swipe/?lxbarth.mo5k9cn2&google#13/' + coor[1] + '/' + coor[0], '_blank');
+                    window.open('http://lxbarth.com/compare/swipe/?lxbarth.mo5k9cn2&google#15/' + coor[1] + '/' + coor[0], '_blank');
                 }
             });
 
