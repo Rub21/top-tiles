@@ -1,5 +1,5 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoicnViZW4iLCJhIjoiYlBrdkpRWSJ9.JgDDxJkvDn3us36aGzR6vg';
-var map = L.mapbox.map('map', 'ruben.nbai2jg5', {
+var map = L.mapbox.map('map', 'ruben.nbalnj6l', {
     infocontrol: true,
     zoomControl: false,
     center: [35.546, 137.411],
@@ -47,7 +47,7 @@ var usLayer = L.mapbox.featureLayer()
                     coor.push((arr[0][1] + arr[1][1] + arr[2][1] + arr[3][1]) / 4);
                     console.log(coor);
                     console.log(coor);
-                    window.open('http://lxbarth.com/compare/swipe/?lxbarth.mo5k9cn2&google#15/' + coor[1] + '/' + coor[0], '_blank');
+                    window.open('http://lxbarth.com/compare/swipe/?ruben.nbalnj6l&google#15/' + coor[1] + '/' + coor[0], '_blank');
                 }
             });
 
