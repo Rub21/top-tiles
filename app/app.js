@@ -36,8 +36,8 @@ var usLayer = L.mapbox.featureLayer()
             }
             layer.setStyle({
                 fillColor: hues[scale],
-                fillOpacity: 0.8,
-                weight: 0.5
+                fillOpacity: .9,
+                weight: 0.3
             });
             layer.on({
                 click: function() {
